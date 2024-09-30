@@ -1,0 +1,122 @@
+/* Main App styling */
+.App {
+    text-align: center;
+    padding: 20px;
+    background-color: #e3f2fd; /* Light blue background */
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h1 {
+    color: #1e88e5; /* Blue */
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Add subject form styling */
+  .add-subject {
+    margin-bottom: 30px;
+  }
+  
+  .add-subject input {
+    margin: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #1e88e5;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .add-subject input:focus {
+    border-color: #42a5f5; /* Lighter blue when focused */
+    outline: none;
+  }
+  
+  .add-subject button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #42a5f5; /* Blue */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .add-subject button:hover {
+    background-color: #1e88e5; /* Darker blue on hover */
+    transform: scale(1.05);
+  }
+  
+  /* Subject list styling */
+  .subject-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .subject-item {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 12px;
+    width: 350px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15); /* Add shadow for depth */
+    transition: all 0.3s ease;
+  }
+  
+  .subject-item:hover {
+    transform: translateY(-5px); /* Lift on hover */
+  }
+  
+  .subject-item h3 {
+    color: #1e88e5;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Hours control buttons */
+  .hours-control {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+    align-items: center;
+  }
+  
+  .hours-control button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #ffca28; /* Yellow button */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .hours-control button:hover {
+    background-color: #ffa726; /* Darker yellow on hover */
+    transform: scale(1.05);
+  }
+  
+  .hours-control span {
+    font-size: 1.2rem;
+    color: #424242; /* Dark gray */
+  }
+  
+  /* Delete button */
+  .delete-btn {
+    margin-top: 10px;
+    background-color: #e53935; /* Red */
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .delete-btn:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+    transform: scale(1.05);
+  }
+  
